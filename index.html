@@ -1,193 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+<HTML>
+	<HEAD>
+		<meta name="keywords" content="webpage,first,">
+		<meta name="description" content="this is the first webpage">
+		<TITLE>Hen Debi</TITLE>
+		<link rel="stylesheet" href="style.css">
+	</HEAD>
+	<BODY>
+		<ul>
+		  <li><a href=#aboutMe>About Me</a></li>
+		  <li><a href=#photos>My Photos</a></li>
+		  <li><a href=#myPlaylist>My Playlist</a></li>
+		  <li><a href=#like>Like</a></li>
+		  <li><a href="about.asp">QR</a></li>
+		  <li><a href="about.asp">Q&A</a></li>
+		  <li><a href="about.asp">Contact Me</a></li>
+		</ul>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
-</html>
+
+		<br id="aboutMe">
+		<h1  align="center"><b>Me</b>
+		<h3  align="center" style="color:green;"><b></b></h3>
+		<h3 align="center" style="color:green;"><b>My name is Hen Debi</b></h3>
+				<h3 align="center" style="color:green;"><b>I am A third-year student in the Department of Software and Information Systems Engineering at Ben-Gurion Universityt</b></h3>
+		<h3 align="center" style="color:green;"><b>My hobbies is to do exercise and reading a books</b></h3>
+		<h3  align="center" style="color:green;"><b>I'm excited about the idea that we're going to develop websites</b></h3>
+		</h1>
+
+		<br id="photos">
+		<h1 align="center"><b>My Photos</b></h1>
+		<img src="2.jpg" width=33% height=300> 
+		<img  src="1.jpg" width=33% height=300> 
+		<img src="3.jpg" width=32% height=300>
+		<br></br>
+		<h1 id="myPlaylist" align="center"><b>My Playlist</b>
+		<br></br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/5eJz0kdOrLw?start=11" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</h1>
+		<div id="fb-root"></div>
+		<br></br>
+				<h2 id="like" align="right"><b>Feel free to like my Page  </b>
+				<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=109599147575&autoLogAppEvents=1"></script>
+						<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="200" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+		</h2>
+
+	</BODY>
+
+
+
+
+</HTML>
