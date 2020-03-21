@@ -1,7 +1,68 @@
-#menu
+﻿body
 {
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+margin: 0;
+padding :0;
+}
+.container{
+	text-align: center;
+	margin-top: 20px;
+}
+.btn{
+	border: 1px solid #3498db;
+	backround: none;
+	padding : 10px 20px;
+	font-size: 20px;
+	font-family: "Ariel";
+	cursor: pointer;
+	margin: 10px;
+
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
+	color: #3498db;
+	border-radius: 50%;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover{
+	color: #3555db;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
