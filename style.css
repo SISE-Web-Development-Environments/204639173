@@ -1,7 +1,12 @@
 ﻿body
 {
 margin: 0;
-padding :0;
+padding :0;  background-color: #f2f2f2;
+text-align: center;
+
+}
+h3{
+  color:green;
 }
 .container{
 	text-align: center;
@@ -35,6 +40,7 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 li {
@@ -65,4 +71,157 @@ li {
 
 li:last-child {
   border-right: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Ariel";
+}
+
+input[type=submit] {
+  
+  background-color:  #333;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  	font-family: "Ariel";
+}
+
+input[type=submit]:hover {
+
+  background-color:  #111;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: center;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 25%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+ textarea {
+  width: 28%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #111;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+div#QA{
+  left: 280px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  content: 100px;
+  width: 900px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+img.pictures {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: 33%;
+}
+img#me{
+
+  left: 100px;
+  top: 200px;
+}
+div.try {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20spx;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+img#youtube{
+  padding: 5px;
+
 }
