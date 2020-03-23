@@ -12,23 +12,8 @@ h3{
 	text-align: center;
 	margin-top: 20px;
 }
-.btn{
-	border: 1px solid #3498db;
-	backround: none;
-	padding : 10px 20px;
-	font-size: 20px;
-	font-family: "Ariel";
-	cursor: pointer;
-	margin: 10px;
 
-}
-.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
-	color: #3498db;
-	border-radius: 50%;
-}
-.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover{
-	color: #3555db;
-}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -53,6 +38,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -84,23 +70,9 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  font-family: "Ariel";
+  font-family: Ariel;
 }
 
-input[type=submit] {
-  
-  background-color:  #333;
-  color: white;
-  padding: 14px 20px;
-  border: none;
-  cursor: pointer;
-  	font-family: "Ariel";
-}
-
-input[type=submit]:hover {
-
-  background-color:  #111;
-}
 
 /* Style the container/contact section */
 .container {
@@ -152,7 +124,7 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 50px;
   cursor: pointer;
 }
 
@@ -170,7 +142,7 @@ div#QA{
   background-color: lightgrey;
   width: 300px;
   border: 15px solid black;
-  padding: 50px;
+  padding: 5px;
   margin: 20px;
   content: 100px;
   width: 900px;
@@ -223,5 +195,8 @@ div.try {
 }
 img#youtube{
   padding: 5px;
+}
 
+a[href^="mailto:"]::after {
+  content: " (&#x1f4e8;&#x2197;&#xfe0f;)";
 }

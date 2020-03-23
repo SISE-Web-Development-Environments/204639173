@@ -31,10 +31,10 @@
 			
 
 			<h3  align="center"><b>
-				My name is Hen Debi<br><br>
+				My name is Hen Debi, I'm 27 years old. I was born and raise in Israel<br><br>
 				I am A third-year student in the Department of Software and Information Systems Engineering at Ben-Gurion University<br>
-				My hobbies is to exercise and reading a books<br>
-				I'm excited about the idea that we're going to develop websites
+				My hobbies is to work out,soccer and reading a books<br>
+				I'm exciting about the idea that we're going to develop websites
 			</b>
 			</h3>
 			<a href="https://www.facebook.com/hen.debi" class="fa fa-facebook"></a>
@@ -42,6 +42,7 @@
 			<a href="https://www.instagram.com/hen_debi/" class="fa fa-instagram"></a>
 		</h1>
 		<br id="photos">
+		<br>
 		<h1 align="center"><b>My Photos</b></h1>
 		<img class="pictures" src="2.jpg" width=33% height=300> 
 		<img  class="pictures" src="1.jpg" width=33% height=300> 
@@ -58,22 +59,27 @@
 		<img src="qr.png" width=15% height=225> 
 		</h1>
 		<br id="qa">
-		<h1 align="center"><b>Q&A</b>
+		<h1 align="center">
 			<p>
+				
 				<h4>
 					<div id="QA">
+						<h1><b>Q&A</b></h1>
 					The difference between web 1.0,2.0,3.0:
 					<h5 style="text-decoration: underline;">Web 1.0
-					<h5 style="">Web 1.0 used for sharing information. There was limited interaction between sites and the users, no opportunity to post reviews and feedback in the websites.</h5>
-					<a href="https://www.w3schools.com/html/">Search engine in web 1.0</a>
+					<h5 style="">Web 1.0 used for sharing information. There was limited interaction between sites and the users, no opportunity to post reviews and feedback in the websites.<br><br>
+					For queries in Web 1.0,if you had like to get information about "pills side effects",you had to insert the specific url addres of the website that posted information about that topic.</h5>
 					<h5 style="text-decoration: underline;">Web 2.0
 					<h5 style="">Web 2.0 facilitates interaction between web users and sites.This changes allows users to interact more freely with each other. Web 2.0 encourages participation collaboration and information sharing.
 					<br>
 					In web 2.0 we got the option to socialize and interact with others through social media,blog and other internet website.
-					Examples of web 2.0 applications:Youtube,Flicker,Facebook.
+					Examples of web 2.0 applications:Youtube,Flicker,Facebook.<br>
+				</br>For queries in Web 2.0,you have to search the query "pills side effects" in the search engine and you will get results about all parts of the string that you typed in.
 					<h5 style="text-decoration: underline;">Web 3.0
 						<h5 style="">The official name of web 3.0 is Semantic Web.Web 3.0 is the executable phrase of world wide web with dynamic applications to access services and "machine to machine" interaction.<br>
-						in web 3.0, computers can interpret information like human and intelligently generate and distribute useful content depend to the needs of the users(Films and series suggestions based on preference)  </h5>
+						in web 3.0, computers can interpret information like human and intelligently generate and distribute useful content depend to the needs of the users(Films and series suggestions based on preference).<br><br>
+						For queries in Web 3.0, you have to search the query "pills side effects" in search engine and you will get results about the exact topic and even related to your last explores
+					</h5><br>
 					</h5>
 					</h5>
 					</div>
@@ -84,13 +90,20 @@
 
 <h2 align="center" style="color:black;font-weight: bold;">Contact Me</h3>
 <div class="container">
-  <form id="contactMe" action="mailto:hende@post.bgu.il?Subject=Someone%20contact%20from%20my%20website" method="post">
-    <label for="Email">Email:</label>
-    <input type="text" id="fname" name="Email" placeholder="Your Email.."><br>
-    <label for="content">Let me know what you are thinking about...</label><br><br>
-    <textarea id="content" name="content" placeholder="Write something.." style="height:200px"></textarea><br>
-    <input type="submit" value="Submit">
-  </form>
+	<form id="contactMe" action="mailto:hende@post.bgu.il" method="post" enctype="text/plain">
+		<label for="fullName">Full name:</label>
+		<input type="text" id="fname" name="fname"  placeholder="Your name.."><br>
+		<textarea id="content" name="content" placeholder="Write something.." style="height:200px;width: 450px;"></textarea><br>
+		<label for="smiles">Overall,how satisfied are you with this website?<br></label>
+		<select id="smiles" name="satisfied" form="contactMe" style="width: 60px;height:40px;">
+		  <option value="very satisfied">😁</option>
+		  <option value="somewhat satisfied">🙂</option>
+		  <option value="somewhat dissatisfied">😐</option>
+		  <option value="very dissatisfied">😡</option>
+		</select><br>
+		<input type="submit">
+	  </form>
+	  <br>
 </div>
 				<h2 id="like" align="center"><b>Feel free to like my Page  </b>
 				<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=109599147575&autoLogAppEvents=1"></script>
